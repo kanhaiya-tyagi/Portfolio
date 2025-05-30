@@ -1,0 +1,67 @@
+/* proCard.css */
+
+.proCardDiv {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 119, 204, 0.1);
+  padding: 1.5rem 2rem;
+  margin: 3rem 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 600px;
+  width: 100%;
+  border-left: 8px solid #0077cc;
+  border-top: 1px solid #0077cc;
+  border-right: 1px solid #0077cc;
+  border-bottom: 1px solid #0077cc;
+}
+
+.proCardDiv:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 119, 204, 0.362);
+}
+
+.proCardDiv a {
+  text-decoration: none;
+  color: #0077cc;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: verdana;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.proCardDiv a:hover {
+  color: #005fa3;
+}
+
+.proDescp {
+  margin-top: 0.8rem;
+  color: #444;
+  font-size: 1rem;
+  font-family: monospace;
+  line-height: 1.6;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .proCardDiv {
+    padding: 1.2rem 1.5rem;
+  }
+
+  .proCardDiv a {
+    font-size: 1.3rem;
+  }
+
+  .proDescp {
+    font-size: 0.95rem;
+  }
+}
+
+/* Icon style next to project name */
+.linkIcon {
+  margin-left: 8px;
+  font-size: 1rem;
+  vertical-align: middle;
+  color: inherit;
+}

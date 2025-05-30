@@ -1,0 +1,64 @@
+.explore {
+  background-color: #0077cc;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 500;
+  font-family: verdana;
+  transition: background-color 0.3s;
+}
+
+.explore:hover {
+  background-color: #005fa3;
+}
+
+/* Dropdown List */
+.linkList {
+  position: absolute;
+  top: 80%;
+  right: 5%;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.237);
+  margin-top: 0.5rem;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-10px);
+  transition: all 0.3s ease-in-out;
+  z-index: 10;
+}
+
+.linkList.visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.linkList ul {
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+.linkList li {
+  padding: 0.6rem 1.2rem;
+}
+
+.linkList a {
+  text-decoration: none;
+  color: #0077cc;
+  font-size: 0.9rem;
+  font-weight: 700;
+  font-family: monospace;
+  display: flex;
+  justify-content: space-between;
+  transition: color 0.2s ease;
+  align-items: center;
+  gap: 6px;
+}
+
+.linkList a:hover {
+  color: #005fa3;
+}

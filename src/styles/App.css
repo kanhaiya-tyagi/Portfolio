@@ -1,0 +1,81 @@
+/* textSec.css */
+
+.prd {
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #f0f4ff, #e3f2fd);
+  display: flex;
+  justify-content: center;
+}
+
+.headDiv {
+  max-width: 100vw;
+  width: 100vw;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgb(0, 0, 0);
+  transition: transform 0.3s ease;
+}
+
+.headDiv:hover {
+  transform: translateY(-5px);
+}
+
+.secHead {
+  font-size: 2.5rem;
+  font-family: verdana;
+  color: #0077cc;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.content {
+  font-size: 1.1rem;
+  font-family: verdana;
+  color: #333;
+  line-height: 1.8;
+  text-align: justify;
+  padding: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .secHead {
+    font-size: 2rem;
+  }
+
+  .content {
+    font-size: 1rem;
+  }
+
+  .headDiv {
+    padding: 1.5rem;
+  }
+}
+
+@media (min-width: 1080px){
+    .headDiv{
+        width: 60vw;
+    }
+}
+
+@media (max-width: 480px) {
+  .secHead {
+    font-size: 1.6rem;
+  }
+
+  .content {
+    font-size: 0.95rem;
+  }
+
+  .prd {
+    padding: 3rem 1rem;
+  }
+}
+
+.projectSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}

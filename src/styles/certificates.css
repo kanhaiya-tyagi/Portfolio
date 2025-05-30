@@ -1,0 +1,33 @@
+.certificates {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  padding-left: 0;
+  margin-top: 1rem;
+  list-style: none;
+}
+
+.certificates li {
+  background: #f0f8ff;
+  border-left: 4px solid #0077cc;
+  border-radius: 10px;
+  padding: 1rem 1rem 1rem 0.75rem;
+  color: #333;
+  font-size: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  transition: transform 0.2s ease; 
+}
+
+.certificates li:hover {
+  transform: translateY(-4px);
+  background-color: #e6f3ff;
+}
+
+.pointIcon {
+  color: #0077cc;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}

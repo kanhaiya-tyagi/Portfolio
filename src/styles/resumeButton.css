@@ -1,0 +1,18 @@
+.resume-button {
+  padding: 0.5rem 1rem;
+  background-color: #0077cc;
+  color: white;
+  border-radius: 12px;
+  font-weight: 500;
+  font-family: verdana;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.resume-button:hover {
+  background-color: #005fa3;
+}
+
+.resume-icon {
+  font-size: 1rem;
+}
