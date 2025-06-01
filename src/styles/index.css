@@ -3,6 +3,7 @@
 }
 
 html{
+    scroll-behavior: smooth;
     --mainColor: white;
     --secondColor: black;
     --specials: maroon;

@@ -12,9 +12,9 @@ const projects = ({Id, heading}) => {
           description="A react based app that changes the background of the page when the button of a certain color is clicked."
         />
         <ProCard 
-          proName="Tip Time"
-          href="https://github.com/kanhaiya-tyagi/Tip-Time"
-          description="An android application made with Kotlin and Jetpack compose that takes input of the base amount and the percentage you want to tip and also a round up button."
+          proName="Password Generator"
+          href="https://pswrd-generator.vercel.app/"
+          description="A web application created in the journey of learning react and implement hooks"
         />
       </div>
     </div>
