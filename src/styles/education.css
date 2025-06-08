@@ -1,0 +1,85 @@
+/* Table container with pop effect */
+.eduTableWrapper {
+  overflow-x: auto;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.eduTable {
+  width: 100%;
+  max-width: 900px;
+  border-collapse: separate;
+  border-spacing: 0;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px gray;
+  border-radius: 16px;
+  overflow: hidden;
+  font-family: Verdana, sans-serif;
+  transition: box-shadow 1s ease;
+}
+
+.eduTable:hover {
+    box-shadow: 0 0 16px #0077cc;
+}
+
+.eduTable thead {
+  background-color: #0077cc;
+  color: white;
+}
+
+.eduTable th,
+.eduTable td {
+  padding: 1rem;
+  border-bottom: 1px solid #b0b0b0;
+  border-right: 1px solid #b0b0b0;
+  text-align: center;
+}
+
+.eduTable th:first-child,
+.eduTable td:first-child {
+  border-left: none;
+}
+
+.eduTable th:last-child,
+.eduTable td:last-child {
+  border-right: none;
+}
+
+.eduTable tr:last-child td {
+  border-bottom: none;
+}
+
+.eduIcon {
+  font-size: 1.5rem;
+  color: #0077cc;
+}
+
+/* Secondary text */
+.smallText {
+  font-family: monospace;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .eduTable th,
+  .eduTable td {
+    font-size: 0.9rem;
+    padding: 0.6rem;
+  }
+
+  .eduTable {
+    font-size: 0.9rem;
+    border-radius: 12px;
+  }
+
+  .eduIcon {
+    font-size: 1.2rem;
+  }
+
+  .secHead {
+    font-size: 1.5rem;
+  }
+}
