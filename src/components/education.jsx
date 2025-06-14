@@ -22,7 +22,7 @@ const education = ({Id, heading}) => {
 						{/* College */}
 						<tr>
 						<td><FaUniversity className='eduIcon' /></td>
-						<td>B.Tech CSE (2023–2027)</td>
+						<td><b>B.Tech CSE</b> (2023–2027)</td>
 						<td>
 							<strong>COER University</strong><br />
 							<span className='smallText'>Roorkee, Uttarakhand</span>
@@ -33,15 +33,15 @@ const education = ({Id, heading}) => {
 						{/* School */}
 						<tr>
 						<td rowSpan={2}><FaSchool className='eduIcon' /></td>
-						<td>Class 12th</td>
+						<td><b>Class 12th </b>(2023)</td>
 						<td rowSpan={2}>
-							<strong>St. Mary's School</strong><br />
-							<span className='smallText'>Civil Lines, Meerut</span>
+							<strong>Sanskar Bharti Convent School</strong><br />
+							<span className='smallText'>Talheri Buzurg, Saharanpur</span>
 						</td>
 						<td>74% (Science Stream)</td>
 						</tr>
 						<tr>
-						<td>Class 10th</td>
+						<td><b>Class 10th</b> (2021)</td>
 						<td>83.8%</td>
 						</tr>
 					</tbody>

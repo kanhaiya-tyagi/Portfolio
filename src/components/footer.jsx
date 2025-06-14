@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/footer.css';
-import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const Footer = ({Id}) => {
     return (
@@ -25,12 +25,12 @@ const Footer = ({Id}) => {
 
                 <div className="footer-contact" id="contact">
                     <h3>Contact</h3>
-                    {/* <p>Email: <a href="mailto:kanhaiya@example.com">kanhaiya@example.com</a></p> */}
                     <div className="social-icons">
                         <a href="https://github.com/kanhaiya-tyagi" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
                         <a href="https://linkedin.com/in/kanhaiya-tyagi" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
                         <a href="mailto:kanhaiya.tyagi.2006@gmail.com"><FaEnvelope /></a>
                         <a href="https://instagram.com/kanhaiya__tyagi" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+                        <a href="https://x.com/Kanhaiya__Tyagi" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
                     </div>
                 </div>
 

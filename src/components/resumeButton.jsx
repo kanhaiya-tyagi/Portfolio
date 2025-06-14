@@ -5,7 +5,7 @@ import "../styles/resumeButton.css";
 const ResumeButton = () => {
 	return (
 		<a
-		href="/Kanhaiya-Tyagi-Resume.pdf"
+		href="/KanhaiyaTyagi.pdf"
 		target="_blank"
 		rel="noopener noreferrer"
 		className="resume-button"
