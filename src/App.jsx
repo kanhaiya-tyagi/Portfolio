@@ -12,12 +12,13 @@ function App() {
 
 	const skills = [
 		"C", "Cpp", "Java", "Python", "Kotlin", 
-		"MySql", "HTML", "CSS", "JavaScript", 
-		"React", "VsCode",
+		"MySql", "MongoDB", "HTML", "CSS", "Tailwind", "Bootstrap", "JavaScript", 
+		"React", "Vite", "NodeJs", "Express", "VsCode",
 		"AndroidStudio","Git", "GitHub" 
 	]
 
 	const certificates = [
+		"MongoDB Bootcamp - LetsUpgrade",
 		"Python Internship - Codsoft",
 		"Programming in C - Data Flair",
 		"High Performance Computing - AICTE",
